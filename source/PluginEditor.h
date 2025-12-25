@@ -18,7 +18,8 @@ public:
     void sliderDragEnded(juce::Slider *) override;
     void sliderDragInternal(juce::Slider *, bool started);
     void updateTrackProperties();
-    void idle();
+    void updatePluginSize();
+   void idle();
  
     struct IdleTimer : juce::Timer
         {
